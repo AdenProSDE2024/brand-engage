@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+dist/
+*.egg-info/
+
+# Digests are private by default. CI commits them only when
+# config/settings.yaml sets commit_digest: true.
+digests/*.md

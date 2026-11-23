@@ -1,0 +1,204 @@
+# TODO: Aden, confirm every handle before you trust this list.
+# None of these accounts were verified by this tool. confirmed: false is a
+# reminder, not a switch. Enabled handles are still searched, including these.
+# A handle that starts with TODO is skipped. Set enabled: false to skip one.
+# Do not invent a handle to fill a gap. Replace the TODO rows with people you
+# actually want to be seen by.
+
+accounts:
+  - handle: swyx
+    confirmed: false
+    enabled: true
+    why: "Writes about AI engineering and agents. Far more reach than you."
+
+  - handle: karpathy
+    confirmed: false
+    enabled: true
+    why: "AI research with a very large audience. Useful when the post is about real work, not a paper."
+
+  - handle: AndrewYNg
+    confirmed: false
+    enabled: true
+    why: "Applied AI, large audience. Engage when the post is about work, not a course promo."
+
+  - handle: ylecun
+    confirmed: false
+    enabled: true
+    why: "AI research, very large audience. Only when you have a concrete operations point."
+
+  - handle: emollick
+    confirmed: false
+    enabled: true
+    why: "Writes about AI and actual work. Close to the buyer conversation."
+
+  - handle: levelsio
+    confirmed: false
+    enabled: true
+    why: "Ships small products in public. Useful on automation that is specific, not hype."
+
+  - handle: amasad
+    confirmed: false
+    enabled: true
+    why: "Replit and coding agents. Far more reach than you."
+
+  - handle: clementdelangue
+    confirmed: false
+    enabled: true
+    why: "Hugging Face. Large audience among people building with models."
+
+  - handle: lennysan
+    confirmed: false
+    enabled: true
+    why: "Product and GTM. Large operator audience."
+
+  - handle: jasonlk
+    confirmed: false
+    enabled: true
+    why: "SaaS go-to-market. Large founder audience."
+
+  - handle: aprildunford
+    confirmed: false
+    enabled: true
+    why: "Positioning. Useful when the post is about what buyers think they are paying for."
+
+  - handle: dharmesh
+    confirmed: false
+    enabled: true
+    why: "HubSpot. Large audience on software for operators."
+
+  - handle: bhalligan
+    confirmed: false
+    enabled: true
+    why: "HubSpot. GTM and operating experience, large audience."
+
+  - handle: paulg
+    confirmed: false
+    enabled: true
+    why: "Very large startup audience. Only reply when you have one sharp point."
+
+  - handle: pmarca
+    confirmed: false
+    enabled: true
+    why: "a16z, very large audience. Threads get crowded fast. Skip if the replies are already piled up."
+
+  - handle: garrytan
+    confirmed: false
+    enabled: true
+    why: "Y Combinator. Large founder audience."
+
+  - handle: gdb
+    confirmed: false
+    enabled: true
+    why: "OpenAI. Large audience. Easy for a reply to get buried, so only when the post is fresh."
+
+  - handle: bfeld
+    confirmed: false
+    enabled: true
+    why: "VC who writes about how companies actually run."
+
+  - handle: hunterwalk
+    confirmed: false
+    enabled: true
+    why: "VC, operator audience. Home run is a post about portfolio-company work."
+
+  - handle: eladgil
+    confirmed: false
+    enabled: true
+    why: "VC and operator. Large audience among people who buy and build."
+
+  - handle: TODO_pe_operating_partner
+    confirmed: false
+    enabled: false
+    why: "Replace with a PE operating partner whose audience you want."
+
+  - handle: TODO_portfolio_coo
+    confirmed: false
+    enabled: false
+    why: "Replace with a portfolio-company COO or VP Ops."
+
+  - handle: TODO_bpo_operator
+    confirmed: false
+    enabled: false
+    why: "Replace with an operator at a BPO, insurer, lender, or staffing firm."
+
+  - handle: TODO_insurance_ops
+    confirmed: false
+    enabled: false
+    why: "Replace with someone who posts about claims, underwriting, or policy servicing."
+
+topics:
+  - why: "AI agents in real operations, not demo threads."
+    enabled: true
+    query: '("AI agent" OR "AI agents") (workflow OR operations OR "back office") -is:retweet -is:reply lang:en'
+
+  - why: "PE and portfolio-company operations."
+    enabled: true
+    query: '("private equity" OR "portfolio company" OR "operating partner") (AI OR automation OR operations) -is:retweet -is:reply lang:en'
+
+  - why: "Desk-heavy work where a pilot usually misses the exceptions."
+    enabled: true
+    query: '(BPO OR underwriting OR "claims processing" OR staffing) (AI OR automation OR workflow) -is:retweet -is:reply lang:en'
+
+# Word-boundary terms. Short words like "ai" will not match inside "again".
+topic_terms:
+  - AI agent
+  - AI agents
+  - automation
+  - automate
+  - workflow
+  - workflows
+  - back office
+  - back-office
+  - process intelligence
+  - BPO
+  - underwriting
+  - claims
+  - insurance
+  - lending
+  - accounting
+  - staffing
+  - private equity
+  - portfolio company
+  - portfolio companies
+  - operating partner
+  - operations
+  - GTM
+  - go-to-market
+  - shadow
+  - rollout
+  - pilot
+  - implementation
+  - exception
+  - exceptions
+  - AI
+
+linkedin_profiles:
+  - name: "TODO: PE operating partner"
+    url: "https://www.linkedin.com/in/TODO_pe_operating_partner"
+    why: "Replace with a real profile. Someone whose posts you want to comment on."
+    enabled: true
+
+  - name: "TODO: portfolio COO"
+    url: "https://www.linkedin.com/in/TODO_portfolio_coo"
+    why: "Replace with a COO or VP Ops inside a portfolio company."
+    enabled: true
+
+  - name: "TODO: BPO operator"
+    url: "https://www.linkedin.com/in/TODO_bpo_operator"
+    why: "Replace with someone who runs desk work at scale."
+    enabled: true
+
+  - name: "TODO: insurance operations"
+    url: "https://www.linkedin.com/in/TODO_insurance_ops"
+    why: "Replace with someone in claims, underwriting, or policy servicing."
+    enabled: true
+
+  - name: "TODO: lending operations"
+    url: "https://www.linkedin.com/in/TODO_lending_ops"
+    why: "Replace with someone in consumer or commercial lending ops."
+    enabled: true
+
+  - name: "TODO: GTM leader you want to reach"
+    url: "https://www.linkedin.com/in/TODO_gtm_leader"
+    why: "Replace with a GTM voice whose audience includes your buyers."
+    enabled: true
