@@ -1,0 +1,55 @@
+# Knobs for the daily run. Secrets never go in this file.
+# X_BEARER_TOKEN, LLM_API_KEY, and SLACK_WEBHOOK_URL come from the environment.
+
+# false: do not commit the digest. Send it to Slack, and on GitHub Actions
+# do not print it. This repo is public, and so are Actions logs and artifacts.
+# true: CI may commit digests/YYYY-MM-DD.md and log.csv. They will be public.
+commit_digest: false
+
+timezone: America/Los_Angeles
+
+# X posts older than this are dropped. LinkedIn comments live longer;
+# those come only from what you paste.
+max_age_hours: 6
+
+# Hard ceiling is 8 items. A higher number is treated as 8.
+max_items: 8
+min_items: 6
+
+# 1 original post from notes/ when the day is full. A second is added only
+# when replies and comments would leave the day short.
+original_posts_per_day: 1
+max_linkedin_comments: 2
+max_posts_per_author: 1
+
+# Recent search bills about $0.005 per post returned (X pay-per-use, Nov 2026).
+# Confirm the current price in the X developer console before you rely on it.
+# 4 requests x 10 posts is about $0.20 a run. The code refuses more than 8
+# requests, and it does not page.
+max_search_requests: 4
+max_results_per_request: 10
+
+your_handle: AdenYCantU
+company_handle: Subliminal_Labs
+
+# Set this to your real follower count. The tool does not look it up.
+# An author must have at least your_follower_count * min_follower_ratio
+# followers, and at least min_author_followers.
+your_follower_count: 1000
+min_follower_ratio: 10
+min_author_followers: 5000
+
+# A crowded thread is a bad reply window. These lower the score.
+# They do not ban the post by themselves.
+saturated_reply_count: 40
+buried_engagement: 1500
+
+lang: en
+
+# openai: any OpenAI-compatible POST /chat/completions host.
+# anthropic: POST /v1/messages.
+# LLM_PROVIDER, LLM_MODEL, and LLM_BASE_URL override these when set.
+llm:
+  provider: openai
+  model: gpt-4o-mini
+  base_url: https://api.openai.com/v1

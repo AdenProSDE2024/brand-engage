@@ -1,0 +1,181 @@
+{
+  "now": "2026-11-23T15:00:00Z",
+  "responses": [
+    {
+      "source": "accounts",
+      "payload": {
+        "data": [
+          {
+            "id": "1001",
+            "author_id": "1",
+            "created_at": "2026-11-23T14:25:00.000Z",
+            "lang": "en",
+            "text": "AI agents look fine in the demo and then fall over in operations. The workflow they were given was the happy path. Production is the exceptions.",
+            "public_metrics": {"like_count": 40, "reply_count": 8, "retweet_count": 10, "quote_count": 3, "impression_count": 12000}
+          },
+          {
+            "id": "1002",
+            "author_id": "2",
+            "created_at": "2026-11-23T13:00:00.000Z",
+            "lang": "en",
+            "text": "The useful question about AI at work is not whether the model can do the task once. It is whether the person still checks every row before the process can move.",
+            "public_metrics": {"like_count": 30, "reply_count": 6, "retweet_count": 4, "quote_count": 1, "impression_count": 8000}
+          },
+          {
+            "id": "1003",
+            "author_id": "3",
+            "created_at": "2026-11-23T12:00:00.000Z",
+            "lang": "en",
+            "text": "B2B buyers do not purchase a category. They purchase relief from a process that already has a budget. GTM teams forget that when they sell AI.",
+            "public_metrics": {"like_count": 55, "reply_count": 12, "retweet_count": 9, "quote_count": 2, "impression_count": 20000}
+          },
+          {
+            "id": "1004",
+            "author_id": "4",
+            "created_at": "2026-11-23T09:40:00.000Z",
+            "lang": "en",
+            "text": "SaaS implementation fails when the new workflow sits beside the old one. Nothing is removed, so cycle time does not move.",
+            "public_metrics": {"like_count": 18, "reply_count": 3, "retweet_count": 2, "quote_count": 0, "impression_count": 4000}
+          },
+          {
+            "id": "1005",
+            "author_id": "5",
+            "created_at": "2026-11-23T13:30:00.000Z",
+            "lang": "en",
+            "text": "Positioning is about the budget they already have. For many ops teams that budget is not AI. It is the cost of the process.",
+            "public_metrics": {"like_count": 22, "reply_count": 4, "retweet_count": 3, "quote_count": 1, "impression_count": 5000}
+          },
+          {
+            "id": "1006",
+            "author_id": "6",
+            "created_at": "2026-11-23T14:05:00.000Z",
+            "lang": "en",
+            "text": "Tools are not the workflow. If you want automation to stick, start from the queue: who touches the file, and which step they quietly do twice.",
+            "public_metrics": {"like_count": 36, "reply_count": 7, "retweet_count": 5, "quote_count": 1, "impression_count": 15000}
+          },
+          {
+            "id": "1008",
+            "author_id": "1",
+            "created_at": "2026-11-23T14:10:00.000Z",
+            "lang": "en",
+            "text": "You should not turn off the old workflow on day one of an automation pilot. Run the new one in the shadow and compare.",
+            "public_metrics": {"like_count": 20, "reply_count": 5, "retweet_count": 4, "quote_count": 1, "impression_count": 6000}
+          },
+          {
+            "id": "1009",
+            "author_id": "8",
+            "created_at": "2026-11-23T14:40:00.000Z",
+            "lang": "en",
+            "text": "AI agents will rebuild the back office. The workflow software of the last twenty years is done.",
+            "public_metrics": {"like_count": 8000, "reply_count": 500, "retweet_count": 1200, "quote_count": 200, "impression_count": 2000000}
+          },
+          {
+            "id": "1010",
+            "author_id": "9",
+            "created_at": "2026-11-23T14:30:00.000Z",
+            "lang": "en",
+            "text": "Back office automation is the whole game for insurance operations.",
+            "public_metrics": {"like_count": 4, "reply_count": 1, "retweet_count": 0, "quote_count": 0, "impression_count": 200}
+          },
+          {
+            "id": "1011",
+            "author_id": "10",
+            "created_at": "2026-11-23T06:00:00.000Z",
+            "lang": "en",
+            "text": "Workflow automation in accounting still needs a human on the exceptions.",
+            "public_metrics": {"like_count": 100, "reply_count": 10, "retweet_count": 8, "quote_count": 1, "impression_count": 30000}
+          },
+          {
+            "id": "1012",
+            "author_id": "11",
+            "created_at": "2026-11-23T14:00:00.000Z",
+            "lang": "en",
+            "in_reply_to_user_id": "999",
+            "text": "@someone The back office workflow is the hard part of AI agents.",
+            "public_metrics": {"like_count": 12, "reply_count": 2, "retweet_count": 0, "quote_count": 0, "impression_count": 1000}
+          },
+          {
+            "id": "1013",
+            "author_id": "12",
+            "created_at": "2026-11-23T14:20:00.000Z",
+            "lang": "en",
+            "text": "Workflow automation for the back office.",
+            "referenced_tweets": [{"type": "retweeted", "id": "55"}],
+            "public_metrics": {"like_count": 5, "reply_count": 0, "retweet_count": 1, "quote_count": 0, "impression_count": 500}
+          },
+          {
+            "id": "1014",
+            "author_id": "13",
+            "created_at": "2026-11-23T14:15:00.000Z",
+            "lang": "en",
+            "text": "Recording the real workflow before any automation pilot.",
+            "public_metrics": {"like_count": 2, "reply_count": 0, "retweet_count": 0, "quote_count": 0, "impression_count": 100}
+          },
+          {
+            "id": "1015",
+            "author_id": "14",
+            "created_at": "2026-11-23T14:30:00.000Z",
+            "lang": "en",
+            "text": "I made pancakes this morning and they were excellent.",
+            "public_metrics": {"like_count": 400, "reply_count": 20, "retweet_count": 10, "quote_count": 2, "impression_count": 80000}
+          },
+          {
+            "id": "1016",
+            "author_id": "15",
+            "created_at": "2026-11-23T14:20:00.000Z",
+            "lang": "es",
+            "text": "La automatizacion del back office no funciona sin el flujo real.",
+            "public_metrics": {"like_count": 15, "reply_count": 2, "retweet_count": 1, "quote_count": 0, "impression_count": 2000}
+          }
+        ],
+        "includes": {
+          "users": [
+            {"id": "1", "name": "Shawn Wang", "username": "swyx", "description": "AI engineering.", "public_metrics": {"followers_count": 220000}},
+            {"id": "2", "name": "Ethan Mollick", "username": "emollick", "description": "AI and work.", "public_metrics": {"followers_count": 190000}},
+            {"id": "3", "name": "Lenny Rachitsky", "username": "lennysan", "description": "Product and GTM.", "public_metrics": {"followers_count": 450000}},
+            {"id": "4", "name": "Jason Lemkin", "username": "jasonlk", "description": "SaaS GTM.", "public_metrics": {"followers_count": 320000}},
+            {"id": "5", "name": "April Dunford", "username": "aprildunford", "description": "Positioning.", "public_metrics": {"followers_count": 80000}},
+            {"id": "6", "name": "Dharmesh Shah", "username": "dharmesh", "description": "HubSpot.", "public_metrics": {"followers_count": 500000}},
+            {"id": "8", "name": "Marc Andreessen", "username": "pmarca", "description": "a16z.", "public_metrics": {"followers_count": 2000000}},
+            {"id": "9", "name": "Small Account", "username": "small_ops_example", "description": "Tiny account.", "public_metrics": {"followers_count": 800}},
+            {"id": "10", "name": "Pieter Levels", "username": "levelsio", "description": "Ships products.", "public_metrics": {"followers_count": 400000}},
+            {"id": "11", "name": "Andrej Karpathy", "username": "karpathy", "description": "AI.", "public_metrics": {"followers_count": 1000000}},
+            {"id": "12", "name": "Yann LeCun", "username": "ylecun", "description": "AI research.", "public_metrics": {"followers_count": 600000}},
+            {"id": "13", "name": "Aden Yu", "username": "AdenYCantU", "description": "GTM at Subliminal.", "public_metrics": {"followers_count": 1000}},
+            {"id": "14", "name": "Paul Graham", "username": "paulg", "description": "Essays.", "public_metrics": {"followers_count": 1500000}},
+            {"id": "15", "name": "Amjad Masad", "username": "amasad", "description": "Replit.", "public_metrics": {"followers_count": 200000}}
+          ]
+        }
+      }
+    },
+    {
+      "source": "topic",
+      "payload": {
+        "data": [
+          {
+            "id": "1001",
+            "author_id": "1",
+            "created_at": "2026-11-23T14:25:00.000Z",
+            "lang": "en",
+            "text": "AI agents look fine in the demo and then fall over in operations. The workflow they were given was the happy path. Production is the exceptions.",
+            "public_metrics": {"like_count": 40, "reply_count": 8, "retweet_count": 10, "quote_count": 3}
+          },
+          {
+            "id": "1007",
+            "author_id": "7",
+            "created_at": "2026-11-23T12:30:00.000Z",
+            "lang": "en",
+            "text": "Our BPO headcount is up again. The AI pilot automated the happy path and left the exceptions with the team. Labor cost did not move.",
+            "public_metrics": {"like_count": 15, "reply_count": 4, "retweet_count": 2, "quote_count": 0, "impression_count": 3000}
+          }
+        ],
+        "includes": {
+          "users": [
+            {"id": "1", "name": "Shawn Wang", "username": "swyx", "description": "AI engineering.", "public_metrics": {"followers_count": 220000}},
+            {"id": "7", "name": "Example Operator", "username": "example_bpo_ops", "description": "Runs operations at a back-office outsourcer.", "public_metrics": {"followers_count": 28000}}
+          ]
+        }
+      }
+    }
+  ]
+}

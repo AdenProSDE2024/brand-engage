@@ -1,0 +1,15 @@
+{
+  "1001": "The part that breaks is rarely the demo. It is the weird case the operator handles and never writes down. If the agent never saw that case, it did not fail in production. It was never shown the job.",
+  "1002": "The test I trust is boring. Can the person close the task and walk away, or do they still check every row? If they still check every row, you added a reviewer. You did not take the work.",
+  "1003": "Ops buyers do not buy the agent. They buy a week of work they can stop doing, with the old process still there if the new one slips.",
+  "1004": "A tool that sits next to the old steps will not cut headcount. Something has to be removed, or the roster stays.",
+  "1005": "The budget they already have is rarely the model. It is a process that costs too much because skilled people are moving files around.",
+  "1006": "The step they do twice is the one that never makes the diagram. That is the workflow. The tool is what gets bought after people get tired of describing it.",
+  "1007": "Headcount goes up when the tools miss the exceptions. The exceptions are the work. A pilot that only runs the happy path will not change the roster.",
+  "1008": "Keep the current process up. Let the new one do the same queue beside it. Compare the outputs before anyone turns the old one off.",
+  "1009": "A claim this broad is hard to reply under once hundreds of people already have. The useful cut is smaller: which queue, and which step actually goes away.",
+  "https://www.linkedin.com/feed/update/urn:li:activity:fixture-10001": "The deck usually describes the process the team wishes they had. The spreadsheet is the process they have. Until those match, the pilot has nothing solid to run on.",
+  "https://www.linkedin.com/feed/update/urn:li:activity:fixture-10002": "Cycle time stays flat when the new tool sits beside the old steps. I would ask which step was actually removed.",
+  "original:1": "Most automation pilots start in a workshop. The work is not in the workshop. It is in the spreadsheet people are a little embarrassed to share. Record the week before you decide what an AI could take.",
+  "original:2": "If an automation only works on the clean files, it did not take the job. The messy files are the job."
+}
